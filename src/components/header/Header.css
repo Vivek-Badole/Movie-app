@@ -1,0 +1,32 @@
+.Hhead{
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hleft {
+display: flex;
+align-items: center;
+}
+
+a > span {
+    margin: 0 30px;
+    font-size: 1.3 rem;
+    cursor : pointer;
+    color : white;
+}
+
+a > span:hover {
+    color : red;
+}
+
+.hicon{
+    width : 80px;
+    cursor: pointer;
+}
+
+.u_a {
+    font-size: 2rem;
+}

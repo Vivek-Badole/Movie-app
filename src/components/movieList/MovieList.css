@@ -1,0 +1,14 @@
+.ml {
+  padding: 0 3rem 3rem 3rem;
+}
+
+.l_t {
+  font-size: 1.75rem;
+  margin: 2.5rem;
+}
+
+.l_c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
