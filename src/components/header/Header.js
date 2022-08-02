@@ -9,10 +9,10 @@ const Header = () => {
         <Link to="/">
           <img
             className="hicon"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDgw7eNHzbkY7i3axOWVI9U6u5EgJHhQk3Q&usqp=CAU"
           />
         </Link>
-        <Link to="/movie/popular" style={{ textDecoration: "none" }}>
+        <Link to="/movies/popular" style={{ textDecoration: "none" }}>
           <span>Popular</span>
         </Link>
         <Link to="/movies/top_rated" style={{ textDecoration: "none" }}>

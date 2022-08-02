@@ -28,7 +28,7 @@ const Home = () => {
         >
           {popMovies.map((m) => (
             <Link
-              style={{ textDecoration: "none", color: "white" }}
+            key={m.id} style={{ textDecoration: "none", color: "white" }}
               to={`/movie/${m.id}`}
             >
               <div className="pi">
@@ -36,7 +36,7 @@ const Home = () => {
                   src={`https://image.tmdb.org/t/p/original${
                     m && m.backdrop_path
                   }`}
-                  alt="image"
+                  alt=""
                 />
               </div>
               <div className="pi_ol">
